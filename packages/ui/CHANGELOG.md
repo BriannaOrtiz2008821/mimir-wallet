@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.0](https://github.com/BriannaOrtiz2008821/mimir-wallet/compare/ui-v2.31.0...ui-v3.0.0) (2025-10-15)
+
+
+### Features
+
+* add ai assistant for mimir ([#319](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/319)) ([eb19fc0](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/eb19fc02d0224c0d3c23f5cb80744f0379d4d385))
+* Add cross-chain calldata display component ([#291](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/291)) ([68ecd55](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/68ecd5546b9ecc59704872f508d34ca8939d3c82))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/285)) ([30a2b78](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/30a2b781a84595aac6531f015a5823c8a1da931b))
+* Add dry run API support for transaction simulation ([#207](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/207)) ([1f74845](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/1f74845face2e87ec023376dcde131cda3e4b912))
+* add global account search and refactor UI components ([#167](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/167)) ([8df2c4c](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/8df2c4cd42407aef73bb9b11373fa0ed68ebdb64))
+* Add notification center feature ([#282](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/282)) ([7f23339](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/7f23339074f471e5aea1d6fecd2464f76654b173))
+* add permission check when submit transaction ([#164](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/164)) ([9668965](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/96689657b56eee53940bb1f05d9d33130b64a90b))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/171)) ([917c877](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/917c8779a46a77b1574b56a7163f98f6c36543a3))
+* Add sonner to replace react-toastify ([#280](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/280)) ([eacc312](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/eacc3126f0eda1c3ee1725c06a3f922965754f83))
+* add template detail view functionality ([#174](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/174)) ([8a80b8d](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/8a80b8d8bf3971698b2821b7e18a28f5e3c26431))
+* Add zkVerify testnet supported ([#251](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/251)) ([7d9aad1](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/7d9aad1a552944ff0b9907eed448448306b6ca5a))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/215)) ([6fd9d5f](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/6fd9d5f7139aafad0a5f539cf38a6e91e5d8a2e5))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/254)) ([6df1e48](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/6df1e486c7b8f324f045220d77f5d9a61f87b057))
+* implement AssetHub migration support ([#259](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/259)) ([e0342a2](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/e0342a223b9fd99aed49f5d72eba68994b32df19))
+* Improve UI display and user experience ([#218](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/218)) ([109b913](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/109b913c63601029e22ed96baaa807204c56427e))
+* migrate some ui components to shadcn ([#278](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/278)) ([4fed210](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/4fed2105fc547c8847adca0648a27c4ab194e14c))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/270)) ([daf212c](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/daf212c79c5d0df8bae0ee65d9efd0291531a73b))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/293)) ([4492780](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/449278029dfcd968a218bc6e9fb94171c1c15c9d))
+* remove assethub next westend network ([#232](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/232)) ([517718b](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/517718bc00e1bbcfcb8e9652f3fdd5c923e122ca))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/162)) ([373f4c0](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/373f4c0b09afc6faa4132932509b22a9bf8190b7))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/261)) ([6de9372](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/6de93727c6a7aff2349fc083d403fb90220de52a))
+
+
+### Bug Fixes
+
+* fix some ui issues ([b968dd3](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/b968dd39c234542f8655a4193100d596dc4bf9ca))
+* Fix some UI issues ([#257](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/257)) ([75dc699](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/75dc69958f051b7828fb6e6398b33f717f02619a))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/165)) ([d66fdd3](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/d66fdd3632341842d233a5424fdfa3073537ef11))
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/ui-v2.30.0...ui-v2.31.0) (2025-10-08)
 
 

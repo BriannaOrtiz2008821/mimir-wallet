@@ -1,5 +1,53 @@
 # Changelog
 
+## [3.0.0](https://github.com/BriannaOrtiz2008821/mimir-wallet/compare/polkadot-core-v2.31.0...polkadot-core-v3.0.0) (2025-10-15)
+
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/323)) ([967cce9](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/967cce921b5e982b7d867065b5d31cd179098efb))
+* Add astar network support ([#230](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/230)) ([7046ee4](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/7046ee4bda6ebf45a9f1bdb1341a1aa3e22b034d))
+* Add cross-chain calldata display component ([#291](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/291)) ([68ecd55](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/68ecd5546b9ecc59704872f508d34ca8939d3c82))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/285)) ([30a2b78](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/30a2b781a84595aac6531f015a5823c8a1da931b))
+* Add dry run API support for transaction simulation ([#207](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/207)) ([1f74845](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/1f74845face2e87ec023376dcde131cda3e4b912))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/309)) ([7f1c5b0](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/7f1c5b092af5fd4f9d7823b9e6831eb91a4611ea))
+* Add notification center feature ([#282](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/282)) ([7f23339](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/7f23339074f471e5aea1d6fecd2464f76654b173))
+* Add PAssetHub network support ([#239](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/239)) ([00d66a5](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/00d66a5cf20b8cc328cd75966b739b6dd781ec4b))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/321)) ([f7fe38d](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/f7fe38dc3b1d9614eb75e6886cf10a1c3418a9a7))
+* Add remote proxy support ([#236](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/236)) ([f1735e9](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/f1735e9f92a570b0f44ea862452f2fd714c68499))
+* Add walletconnect in dapp page ([#217](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/217)) ([0be025e](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/0be025e25c830952624bd8f5847bd3d116dd105a))
+* Add xcavate network support ([#237](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/237)) ([34f074e](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/34f074ed7bea217597f25eee642597d74a942bfd))
+* Add zkverify mainnet support ([#312](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/312)) ([fb891bf](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/fb891bf0fb828bdebc02eb5704f89151c79548b9))
+* Add zkVerify testnet supported ([#251](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/251)) ([7d9aad1](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/7d9aad1a552944ff0b9907eed448448306b6ca5a))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/254)) ([6df1e48](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/6df1e486c7b8f324f045220d77f5d9a61f87b057))
+* Improve UI display and user experience ([#218](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/218)) ([109b913](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/109b913c63601029e22ed96baaa807204c56427e))
+* Optimize balance retrieval logic ([#311](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/311)) ([ed0d486](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/ed0d486df9f030ad05be681a5415b94c50c3d6fd))
+* optimize rpc connection and improve network stability ([#193](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/193)) ([7b61a19](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/7b61a19559f55685304d63a9fb3c8768bd1748fb))
+* remove assethub next westend network ([#232](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/232)) ([517718b](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/517718bc00e1bbcfcb8e9652f3fdd5c923e122ca))
+* subscribe wallet accounts changed ([#176](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/176)) ([f3d30c8](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/f3d30c8cbb9e867a655ca6c9c3d157bbc67a46fa))
+* Support eth address transfer on westend ([#234](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/234)) ([2b981dc](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/2b981dc2ab1ce83c04ad71990523f531c8cb2e58))
+* support eth address trasfer on westend assethub ([#224](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/224)) ([3cd18ed](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/3cd18edac9a6b04e4aabb38f79aa726928162414))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/261)) ([6de9372](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/6de93727c6a7aff2349fc083d403fb90220de52a))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/268)) ([4dccdee](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/4dccdee2ee9176ecb4700cd2209c7245177afff3))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/267)) ([cb53ca1](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/cb53ca1539f6abd78edd35c600b91bcb96fdbc82))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/247)) ([089ec70](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/089ec704ef775c71a8b088396d7a1cb2cc153f39))
+
+
+### Bug Fixes
+
+* fix nexu hash calculation in polkadot-core tx module ([#178](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/178)) ([a9ced86](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/a9ced8605ef10f6edd0291bd0a1dbc17463178e5))
+* Fix some issues while connect wallet ([#220](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/220)) ([577df0e](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/577df0e2f450c30c02299e4fb247ca6010d50166))
+* improve user experience and fix bugs ([#222](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/222)) ([2016dd7](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/2016dd722e899fc1e0833d59bc6fc49b9ee7c67b))
+* optimize balance fetching performance ([#228](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/228)) ([1fcc954](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/1fcc954d9cb9ddae8194e10b337f96414dd9886b))
+* optimize user experience and fix some bugs ([#226](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/226)) ([e31515f](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/e31515fd672aed49890f1f57c6ca374cad35738e))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @mimir-wallet/service bumped to 3.0.0
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/polkadot-core-v2.30.0...polkadot-core-v2.31.0) (2025-10-08)
 
 

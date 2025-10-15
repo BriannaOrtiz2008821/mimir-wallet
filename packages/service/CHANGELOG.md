@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/BriannaOrtiz2008821/mimir-wallet/compare/service-v2.31.0...service-v3.0.0) (2025-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/181)) ([74837b2](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/74837b2fb7e788ad795a3f9878a4f6301053b22c))
+* Add cross-chain calldata display component ([#291](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/291)) ([68ecd55](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/68ecd5546b9ecc59704872f508d34ca8939d3c82))
+* Add dry run API support for transaction simulation ([#207](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/207)) ([1f74845](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/1f74845face2e87ec023376dcde131cda3e4b912))
+* Add notification center feature ([#282](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/282)) ([7f23339](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/7f23339074f471e5aea1d6fecd2464f76654b173))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/171)) ([917c877](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/917c8779a46a77b1574b56a7163f98f6c36543a3))
+* Add remote proxy support ([#236](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/236)) ([f1735e9](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/f1735e9f92a570b0f44ea862452f2fd714c68499))
+* add transaction subscription functionality ([#213](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/213)) ([bf5d59c](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/bf5d59cef5684461be43d7ba27569dab85be27e1))
+* Add zkVerify testnet supported ([#251](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/251)) ([7d9aad1](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/7d9aad1a552944ff0b9907eed448448306b6ca5a))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/198)) ([9995542](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/9995542282d7ee15ab27e8441f5f0a2a15eef3e1))
+* Improve UI display and user experience ([#218](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/218)) ([109b913](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/109b913c63601029e22ed96baaa807204c56427e))
+* Optimize balance retrieval logic ([#311](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/311)) ([ed0d486](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/ed0d486df9f030ad05be681a5415b94c50c3d6fd))
+* remove assethub next westend network ([#232](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/232)) ([517718b](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/517718bc00e1bbcfcb8e9652f3fdd5c923e122ca))
+* remove batch restore functionality ([#204](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/204)) ([1f8abfe](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/1f8abfe1c86d3ad694d385fa11b2e8ca57b7fa8c))
+* subscribe wallet accounts changed ([#176](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/176)) ([f3d30c8](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/f3d30c8cbb9e867a655ca6c9c3d157bbc67a46fa))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/261)) ([6de9372](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/6de93727c6a7aff2349fc083d403fb90220de52a))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/BriannaOrtiz2008821/mimir-wallet/issues/267)) ([cb53ca1](https://github.com/BriannaOrtiz2008821/mimir-wallet/commit/cb53ca1539f6abd78edd35c600b91bcb96fdbc82))
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.30.0...service-v2.31.0) (2025-10-08)
 
 
